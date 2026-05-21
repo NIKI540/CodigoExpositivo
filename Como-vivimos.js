@@ -4,27 +4,36 @@
   // Datos porcentuales (columna LLENAR)
   //Cambia los datos de acuerdo al Censo del Dane
   const datosLlenar = [
-    51.2,
-    48.8,
-    30.7,
-    63.0,
-    6.3,
-    22.6,
-    68.2,
-    9.1
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
   ];
 
   // Etiquetas correspondientes
   //Cambia las estiquetas de las graficas de acuerdo a las variables evaluadas del censo
   const etiquetas = [
+    "E. electricidad",
+    "Acueducto",
+    "Alcantarillado",
+    "Gas",
+    "Aseo",
+    "Internet",
+    "1 Persona",
+    "2 Personas",
+    "3 Personas",
+    "4 personas",
+    "5 Personas o mas",
     "Hombre",
-    "Mujer",
-    "Hombres 0-14",
-    "Hombres 15-65",
-    "Hombres >=65",
-    "Mujeres 0-14",
-    "Mujeres 15-65",
-    "Mujeres >=65"
+    "Mujer"
   ];
 
   // Llenar el total de personas censadas
