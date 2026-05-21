@@ -63,7 +63,7 @@
         label: 'Frecuencia Porcentual (%)',
         data: datosPorcentualesGraficar,
         backgroundColor: 'rgba(14, 11, 228, 0.6)',
-        borderColor: 'rgb(42, 156, 177)',
+        borderColor: 'rgb(3, 3, 3)',
         borderWidth: 1
       }]
     },

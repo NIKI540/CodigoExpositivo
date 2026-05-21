@@ -6,9 +6,9 @@
   const datosLlenar = [
     51.2,
     48.8,
-    30.7,
-    63.0,
-    6.3,
+    22.6,
+    68.2,
+    9.1,
     22.6,
     68.2,
     9.1
@@ -66,8 +66,8 @@
       datasets: [{
         label: 'Frecuencia Porcentual (%)',
         data: datosPorcentualesGraficar,
-        backgroundColor: 'rgba(161, 12, 12, 0.6)',
-        borderColor: 'rgb(160, 12, 12)',
+        backgroundColor: 'rgba(238, 26, 26, 0.91)',
+        borderColor: 'rgb(17, 13, 13)',
         borderWidth: 1
       }]
     },

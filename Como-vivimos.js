@@ -4,19 +4,19 @@
   // Datos porcentuales (columna LLENAR)
   //Cambia los datos de acuerdo al Censo del Dane
   const datosLlenar = [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    96.3,
+    86.4,
+    76.6,
+    66.8,
+    81.6,
+    43.4,
+    18.8,
+    21.7,
+    23.2,
+    19.5,
+    16.8,
+    59.3,
+    40.7
   ];
 
   // Etiquetas correspondientes
@@ -76,8 +76,8 @@
       datasets: [{
         label: 'Frecuencia Porcentual (%)',
         data: datosPorcentualesGraficar,
-        backgroundColor: 'rgba(161, 12, 12, 0.6)',
-        borderColor: 'rgb(160, 12, 12)',
+        backgroundColor: 'rgba(250, 102, 28, 0.88)',
+        borderColor: 'rgb(2, 1, 1)',
         borderWidth: 1
       }]
     },
