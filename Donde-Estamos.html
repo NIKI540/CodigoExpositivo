@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla de Censo y Gráfica</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<!-- En esta seccion direcionan la pagina ejemplo como vivimos.html-->
+  <nav class="menu">
+    <a href="index.html">Cuántos somos</a>
+    <a href="Donde-Estamos.html">Dónde estamos</a>
+    <a href="#aqui-nombre-pagina-html">Cómo vivimos</a>
+  </nav>
+
+  <div class="contenedor">
+    <!-- En esta seccion modifican la tabla -->
+    <table>
+      <tr>
+        <!-- Se usa colspan="4" es para combinar columnas -->
+        <td class="header" colspan="4">Total de personas censadas</td>
+        <td id="totalCensados"></td>
+      </tr>
+      <tr>
+        <th>VARIABLES</th>
+        <th>ETIQUETA</th>
+        <th>FRECUENCIA</th>
+        <th>FRECUENCIA</th>
+        <th>LLENAR</th>
+      </tr>
+      <tr>
+        <!-- Se usa rowspan="2" es para combinar filas -->
+        <td rowspan="2">Distribución de población</td>
+        <td>C. Municipal</td>
+        <td class="frecuencia"></td>
+        <td class="porcentual"></td>
+        <td class="llenar"></td>
+      </tr>
+      <tr>
+        <td>Centro Poblados</td>
+        <td class="frecuencia"></td>
+        <td class="porcentual"></td>
+        <td class="llenar"></td>
+      </tr>
+      <tr>
+        <td>Rural</td>
+        <td class="frecuencia"></td>
+        <td class="porcentual"></td>
+        <td class="llenar"></td>
+      </tr>
+      <tr>
+        <td rowspan="2">Lugar de nacimiento</td>
+        <td>Colombia</td>
+        <td class="frecuencia"></td>
+        <td class="porcentual"></td>
+        <td class="llenar"></td>
+      </tr>
+      <tr>
+        <td>Otro pais</td>
+        <td class="frecuencia"></td>
+        <td class="porcentual"></td>
+        <td class="llenar"></td>
+      </tr>
+      <tr>
+        <td>Sin información</td>
+        <td class="frecuencia"></td>
+        <td class="porcentual"></td>
+        <td class="llenar"></td>
+      </tr>
+    </table>
+    <!-- En esta seccion importa la grafica-->
+    <canvas id="graficaPorcentual" width="600" height="300"></canvas>
+  </div>
+  <!-- En esta seccion importa los datos de JavaScript-->
+  <script src="Donde-Estamos.js"></script>
+</body>
+</html>
